@@ -1,0 +1,33 @@
+html,
+body {
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: transparent;
+    width: 100%;  
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    // font-family: 'Roboto', 'Noto Sans TC', $font-family-sans-serif;
+    scroll-behavior: smooth;
+}
+
+small {
+    font-size: .875rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    transition: .5s;
+}
